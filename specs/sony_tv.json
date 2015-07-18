@@ -1,0 +1,25 @@
+{
+	"brand": "Sony",
+	"device": "tv",
+	
+	"serial_config": {
+		"baudrate": 9600,
+		"databits": 8,
+		"stopbits": 1,
+		"parity": "none"
+	},
+	
+	"commands": {
+		"power_on": [140, 0, 0, 2, 1, 143],
+		"power_off": [140, 0, 0, 2, 0, 142],
+		"input_hdmi1": [140, 0, 2, 3, 4, 1, 150],
+		"input_hdmi2": [140, 0, 2, 3, 4, 2, 151],
+		"input_hdmi3": [140, 0, 2, 3, 4, 3, 152],
+		"input_hdmi4": [140, 0, 2, 3, 4, 4, 153],
+		"volume_up": [140, 0, 5, 3, 0, 0, 148],
+		"volume_down": [140, 0, 5, 3, 0, 1, 149],
+		"volume_set": [140, 0, 5, 3, 1, "n", 0],
+		"mute": [140, 0, 6, 3, 1, 1, 151],
+		"unmute": [140, 0, 6, 3, 1, 0, 150]
+	}
+}

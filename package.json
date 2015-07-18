@@ -1,0 +1,28 @@
+{
+  "name": "serial-remote",
+  "version": "0.0.1",
+  "description": "utility for controlling AV devices using the serial port",
+  "main": "device.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidmuzi/serial-remote.git"
+  },
+  "keywords": [
+    "serial",
+    "remote",
+    "control",
+    "rs232"
+  ],
+  "author": "David Muzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidmuzi/serial-remote/issues"
+  },
+  "homepage": "https://github.com/davidmuzi/serial-remote",
+  "dependencies": {
+    "serialport": "^1.7.4"
+  }
+}
