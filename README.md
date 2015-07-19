@@ -2,7 +2,7 @@
 utility for controlling AV devices using the serial port
 
 ## Purpose
-Many home theater devices (tvs, projectors, receivers) can be controlled via their RS232 port.  This module is designed to be evolve to control devices from any brand via a spec file, which is a json representation of the control protocol.
+Many home theater devices (tvs, projectors, receivers) can be controlled via their RS232 port.  This module will evolve to control several devices from many brands via a spec file, which is a json representation of the control protocol (see the example for Sony TVs in the /spec folder).
 
 ## Installation
 ```bash
@@ -25,4 +25,8 @@ device.on('ready', function() {
 ```
 
 ## Contributions
-If you have a device that can be controlled via RS232, create a spec file containing the  supported commands
+If you have a device that can be controlled via RS232, create a spec file containing the  supported commands and issue a PR.
+If you find an issue, create a ticket on github
+
+## License
+[MIT](LICENSE)
