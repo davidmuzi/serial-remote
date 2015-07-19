@@ -1,6 +1,6 @@
 {
   "name": "serial-remote",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "utility for controlling AV devices using the serial port",
   "main": "device.js",
   "scripts": {
