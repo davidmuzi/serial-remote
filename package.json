@@ -2,7 +2,7 @@
   "name": "serial-remote",
   "version": "0.0.3",
   "description": "utility for controlling AV devices using the serial port",
-  "main": ".lib/device.js",
+  "main": "./lib/device.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
